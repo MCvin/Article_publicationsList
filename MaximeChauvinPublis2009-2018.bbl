@@ -1,0 +1,1134 @@
+%----------------------------------------------------%
+%       Medical                                      %
+%----------------------------------------------------%
+@article{Frezza_2020,
+	doi = {10.1016/j.ejmp.2020.04.010},
+	url = {https://doi.org/10.1016\%2Fj.ejmp.2020.04.010},
+	year = 2020,
+	month = {may},
+	publisher = {Elsevier {BV}},
+	volume = {73},
+	pages = {95--104},
+	author = {Andrea Frezza and Charles Joachim-Paquet and Maxime Chauvin and Philippe Despr{\'{e}}s},
+	title = {Validation of {irtGPUMCD}, a {GPU}-based Monte Carlo internal dosimetry framework for radionuclide therapy},
+	journal = {Physica Medica}
+}
+
+@article{Maxime_Chauvin70586014,
+title={OpenDose: open access resources for nuclear medicine dosimetry},
+journal={Journal of Nuclear Medicine},
+author={Maxime Chauvin and Maxime Chauvin and Damian Borys and Francesca Botta and Pawel Bzowski and J{\'e}r{\'e}mie Dabin and Ana M Denis-Bacelar and Aur{\'e}lie Desbr{\'e}e and Nadia Falzone and Boon Quand Lee and Andrea Mairiani and Alessandra Malaroda and Gilles Mathieu and Erin McKay and Erick Mora-Ramirez and Andrew P Robinson and David Sarrut and Lara Struelens and Alex Vergara Gil and Manuel Bardi{\`e}s},
+doi={10.2967/jnumed.119.240366},
+url={http://doi.org/10.2967/jnumed.119.240366},
+year={2020}
+}
+
+@inproceedings{DBLP:conf/ccgrid/ChauvinMCBBP19,
+  author    = {Maxime Chauvin and
+               Gilles Mathieu and
+               Sorina Camarasu{-}Pop and
+               Axel Bonnet and
+               Manuel Bardies and
+               Isabelle Perseil},
+  title     = {Enabling Large Scale Data Production for OpenDose with {GATE} on the
+               {EGI} Infrastructure},
+  booktitle = {19th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+               Computing, {CCGRID} 2019, Larnaca, Cyprus, May 14-17, 2019},
+  pages     = {658--665},
+  year      = {2019},
+  crossref  = {DBLP:conf/ccgrid/2019},
+  url       = {https://doi.org/10.1109/CCGRID.2019.00084},
+  doi       = {10.1109/CCGRID.2019.00084},
+  timestamp = {Tue, 09 Jul 2019 19:27:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ccgrid/ChauvinMCBBP19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{LESTE201821,
+    title = "Monte Carlo simulation of absorbed dose distribution for electron beam using GATE/GEANT4",
+    journal = "Physica Medica",
+    volume = "56",
+    pages = "21",
+    year = "2018",
+    note = "Abstracts of the 57èmes Journées Scientifiques de la Société Française de Physique Médicale",
+    issn = "1120-1797",
+    doi = "https://doi.org/10.1016/j.ejmp.2018.09.049",
+    url = "http://www.sciencedirect.com/science/article/pii/S1120179718312110",
+    author = "J. Leste and T. Younes and M. Chauvin and L. Vieillevigne and M. Bardies and X. Franceries and J. Nalis and L. Simon",
+    abstract = "Introduction
+    Limits of Treatment Planning Systems (TPS) dose calculation for photon beams have been widely studied. There are fewer studies on electron beam dose calculation. Fast Electron Monte Carlo (eMC, Varian, Palo Alto, CA) is a clinical dose distribution calculation algorithm for electron beam, based on an advanced variance reduction technique, Macro Monte Carlo (MMC) [1]. Results for complex cases (heterogeneity, irregular surface contour) are limited. A GATE/GEANT4 model of a radiotherapy linac (Varian, TrueBeam) is implemented. The purpose of this study is to evaluate these algorithms by comparing them to film measurements in complex cases.
+    Methods
+    Validation of GATE model is performed on homogenous water phantom. Percentage depth dose curves (PDD) and lateral dose profiles (LDP) are compared with experimental measurement (6 and 9 MeV). Results of dose distribution calculation for eMC and GATE are comparing with Gafchromic EBT3 (Ashland ISP, Wayne, NJ) films, for complex cases including heterogeneities (lung, bone) and irregular surface (step). Normalization are achieved in a homogenous water region for dose profiles at two different depths (at contact and at a distance of the heterogeneity). Global Gamma Index Pass Rate (GIPR) 1D is used to compare the data sets.
+    Results
+    When comparing GATE and measurements, GIPR2\%/2mm for PDD and LDP in homogenous water phantom is 100\% for 6 MeV and 9 MeV. GIPR3\%/3mm (threshold >10\% Dmax) for complexes cases (lung, bone and step) is >98.5\% for GATE (6, 9 MeV) except for only one case at 6 MeV (at contact with lung heterogeneity: 82.9\%). But, for eMC in lung case, GIPR are 100\% for 9 MeV electrons but only 65.6\% and 84.4\% at 6 MeV at contact and at 10 mm of the heterogeneity, respectively. In presence of bones, GIPR are 100\% (6, 9 MeV) except at 9 MeV, at contact of the heterogeneity (69.7\%). For irregular surface cases GIPR of eMC vs. films was superior to 95.2\% and 99.2\% for 6 and 9 MeV respectively.
+    Conclusions
+    GATE model for electron beams is validated in homogeneous water phantom. In presence of surface irregularities (step) satisfactory results are obtained for both GATE and eMC. Nevertheless, when comparing to measurements for heterogeneous media, and in particular after lung (6 MeV) and bones (9 MeV) eMC was limited while GATE was satisfactory in all configurations. The study is currently carried on for more energy (12 and 18 MeV) and clinical cases (face). GATE could be proposed as a 3D dose check solution for complex electron beams."
+}
+
+@article{YOUNES201821,
+    title = "Evaluation of the absorbed dose reporting mode of the AAA and AXB algorithms and the Monte-Carlo code GATE in high and low density media",
+    journal = "Physica Medica",
+    volume = "56",
+    pages = "21 - 22",
+    year = "2018",
+    note = "Abstracts of the 57èmes Journées Scientifiques de la Société Française de Physique Médicale",
+    issn = "1120-1797",
+    doi = "https://doi.org/10.1016/j.ejmp.2018.09.050",
+    url = "http://www.sciencedirect.com/science/article/pii/S1120179718312122",
+    author = "T. Younes and A. Delbaere and M. Chauvin and L. Simon and G. Fares and L. Vieillevigne",
+    abstract = "Introduction
+    The aim of our study was to investigate the dosimetric accuracy of Analytical Anisotropic Algorithm (AAA) and Acuros XB (AXB) with the two absorbed dose reporting options dose-to-medium (Dm) and dose-to-water (Dw). The calculations were carried out for small multi-leaf collimator (MLC) fields in heterogeneous media against Monte Carlo (MC) simulations and EBT3 radiochromic films measurements. The well-known approach of Siebers et al.1 used for converting Dm to Dw in MC codes was also investigated.
+    Methods
+    Two multilayered slab phantoms were used for this study. These phantoms consisted of soft tissue equivalent material with bone (1.82 g/cm3) or Lung (0.29 g/cm3) slabs. MC calculations were performed using GATE platform and were considered as benchmark for Dm calculations. The AXB Dm calculations were compared to those of GATE Dm with the AXB library elemental compositions on one hand and with the experimental phantoms elemental compositions on the other hand. The results of the AAA, AXB Dw and GATE Dw. were compared against film measurements considered as Dw reference. All calculations and measurements were performed for 6 MV photon beams delivered from a Truebeam linear accelerator with a 3 × 3 cm2 nominal MLC field.
+    Results
+    The AXB Dm calculations showed excellent agreement with GATE Dm when the calculations were performed with the same elemental compositions. However, an average difference of 2\% and 1.6\% was found between AXB Dm and GATE Dm with the experimental phantom compositions in Lung and bone, respectively. The GATEDw and AXB Dw calculations were in agreement with films measurement with an average difference less than 1.5\% for the Lung configuration. Conversely, an average differences of 3.1\% was found with the AAA results after the lung region. The results of AXB and GATE calculations were significantly different compared to film measurements in the bone region. Differences were up to 10.4\% and 7\% for AXB Dw and GATE Dw, respectively. These results show that the conversion method used by AXB and GATE should be reviewed. Concerning the GATE conversion method, a fluence correction factor should be applied as mentioned by Andreo [1]. This factor was calculated for the studied media and good agreements were found with measurements after applying it.
+    Conclusions
+    The AXB was found to be more accurate than the AAA in the low density media. The current methods employed for converting Dm to Dw in AXB and GATE are invalid and should be corrected. Further studies on the calculation of electron spectra and fluence correction factors in different media and for various field sizes are ongoing."
+}
+
+@article{CHAUVIN201732,
+    title = "OpenDose: A collaborative effort to produce reference dosimetric data with Monte Carlo simulation software",
+    journal = "Physica Medica",
+    volume = "42",
+    pages = "32 - 33",
+    year = "2017",
+    note = "Abstracts of the MCMA2017",
+    issn = "1120-1797",
+    doi = "https://doi.org/10.1016/j.ejmp.2017.09.081",
+    url = "http://www.sciencedirect.com/science/article/pii/S1120179717304003",
+    author = "Maxime Chauvin and Damian Borys and Francesca Botta and Pawel Bzowski and Marco A. Coca Pérez and Marta Cremonesi and Jérémie Dabin and Ana M. Denis-Bacelar and Aurélie Desbrée and Ziad El Bitar and Nadia Falzone and Ludovic Ferrer and Didier Franck and Nico Lanconelli and Andrea Mairani and Alessandra Malaroda and Kamil Matusik and Erin McKay and Massimiliano Pacilio and Justyna Pieter and Andrew P. Robinson and José L. Rodríguez and Lara Struelens and Leonel A. Torres Aroches and Alex Vergara Gil and Manuel Bardiès",
+    abstract = "Radiopharmaceutical dosimetry for diagnostic and therapy uses reference data describing energy deposition from a source to target tissues. Reference data are usually expressed as S-values, i.e. mean absorbed dose in a target from a source decay (Gy.Bq-1.s-1). The OpenDose project aims at providing an open database of robust reference S-values generated from different Monte Carlo (MC) software, through an international collaboration. The ICRP 110 reference adult female [1] was chosen as the first model, with 140 segmented tissues-organs and a voxel size of 1.775×1.775×4.84 mm3. Specific Absorbed Fractions (SAFs) are being computed for different sources, with mono-energetic photons and electrons. S-values will be generated by interpolating these mono-energetic SAFs for isotope decay schemes [2]. Producing data with different software using various physics lists will allow a cross-verification of the results and their associated uncertainties. The OpenDose project already includes 12 research teams and 5 of the most popular MC software used in radiopharmaceutical dosimetry: Geant4/GATE, Fluka, EGSnrc/EGS++, MCNP/MCNPX and Penelope. A total of 46 source tissues-organs have so far been simulated with GATE for mono-energetic particles (photons+electrons) from 5keV to 10MeV. Each simulation requires ∼1 day of computation on a single CPU for 108 primary particles and produces a 3D map (voxel-based) of absorbed doses and uncertainties. When available, the data from the other software will be analysed and compared in terms of SAFs for different targets and energies. Next steps include the integration of SAFs to provide S-values and build the database to allow Nuclear Medicine centres to easily access and use the data. Through a collaboration of research teams using different MC techniques, we are developing a freely accessible database of reference dosimetric data. A preliminary study using the ICRP adult female model is ongoing. The project is open to new research teams to increase the variety of software and will expand to more computational models and studies."
+}
+
+@article{ ISI:000426452601091,
+    Author = {Younes, T. and Simon, L. and Chauvin, M. and Fares, G. and Vieillevigne,
+    L.},
+    Title = {Determination of Small MLC-Fields Corrections Factors for Several
+    Detectors Using Monte-Carlo Simulations and EBT3 Gafchromic Films},
+    Journal = {MEDICAL PHYSICS},
+    Year = {2017},
+    Volume = {44},
+    Number = {6},
+    Meeting = {SU-F-108-0},
+    Month = {JUN},
+    Note = {59th Annual Meeting and Exhibition of the
+    American-Association-of-Physicists-in-Medicine (AAPM), Denver, CO, JUL
+    30-AUG 03, 2017},
+    Organization = {Amer Assoc Physicists Med},
+    Publisher = {WILEY},
+    Address = {111 RIVER ST, HOBOKEN 07030-5774, NJ USA},
+    Type = {Meeting Abstract},
+    Language = {English},
+    Affiliation = {Younes, T.; Simon, L.; Chauvin, M.; Vieillevigne, L., Univ Toulouse 3, ERL5294, CNRS, Canc Res Ctr Toulouse,UMR1037,INSERM,Oncopole Tou, 2 Ave Hubert Curien, F-31037 Toulouse 1, France.
+    Younes, T.; Simon, L.; Vieillevigne, L., Canc Univ Inst Toulouse, 1 Ave Irene Joliot Curie, F-31059 Toulouse 9, France.
+    Younes, T.; Fares, G., Univ St Joseph Beyrouth, Fac Sci, Campus Sci \& Technol, Mar Roukos Dekwaneh, Lebanon.},
+    ISSN = {0094-2405},
+    EISSN = {2473-4209},
+    Research-Areas = {Radiology, Nuclear Medicine \& Medical Imaging},
+    Web-of-Science-Categories  = {Radiology, Nuclear Medicine \& Medical Imaging},
+    Number-of-Cited-References = {0},
+    Times-Cited = {0},
+    Usage-Count-Last-180-days = {1},
+    Usage-Count-Since-2013 = {1},
+    Journal-ISO = {Med. Phys.},
+    Doc-Delivery-Number = {FX9UE},
+    Unique-ID = {ISI:000426452601091},
+    DA = {2018-08-21},
+}
+
+%----------------------------------------------------%
+%       Astrophysics                                 %
+%----------------------------------------------------%
+@article{10.1093/mnrasl/sly233,
+    author = {Chauvin, Maxime and Florén, Hans-Gustav and Jackson, Miranda and Kamae, Tuneyoshi and Kataoka, Jun and Kiss, Mózsi and Mikhalev, Victor and Mizuno, Tsunefumi and Takahashi, Hiromitsu and Uchida, Nagomi and Pearce, Mark},
+    title = "{PoGO+ polarimetric constraint on the synchrotron jet emission of Cygnus X-1}",
+    journal = {Monthly Notices of the Royal Astronomical Society: Letters},
+    volume = {483},
+    number = {1},
+    pages = {L138-L143},
+    year = {2018},
+    month = {12},
+    abstract = "{We report a polarimetric constraint on the hard X-ray synchrotron jet emission from the Cygnus X-1 black hole binary system. The observational data were obtained using the PoGO+ hard X-ray polarimeter in 2016 July, when Cygnus X-1 was in the hard state. We have previously reported that emission from an extended corona with a low polarization fraction is dominating, and that the polarization angle is perpendicular to the disc surface. In the soft gamma-ray regime, a highly polarized synchrotron jet is reported with INTEGRAL observations. To constrain the polarization fraction and flux of such a jet component in the hard X-ray regime, we now extend analyses through vector calculations in the Stokes QU plane, where the dominant corona emission and the jet component are considered simultaneously. The presence of another emission component with different polarization angle could partly cancel out the net polarization. The 90 per cent upper limit of the polarization fraction for the additional synchrotron jet component is estimated as \\&lt;10 per cent, \\&lt;5 per cent, and \\&lt;5 per cent for polarization angle perpendicular to the disc surface, parallel to the surface, and aligned with the emission reported by INTEGRAL data, respectively. From the 20–180 keV total flux of 2.6 × 10−8 erg s−1 cm−2, the upper limit of the polarized flux is estimated as \\&lt; 3 × 10−9 erg s−1 cm−2.}",
+    issn = {1745-3925},
+    doi = {10.1093/mnrasl/sly233},
+    url = {https://doi.org/10.1093/mnrasl/sly233}
+}
+
+@ARTICLE{2018NatAs...2..652C,
+   author = {{Chauvin}, M. and {Flor{\'e}n}, H.-G. and {Friis}, M. and {Jackson}, M. and 
+	{Kamae}, T. and {Kataoka}, J. and {Kawano}, T. and {Kiss}, M. and 
+	{Mikhalev}, V. and {Mizuno}, T. and {Ohashi}, N. and {Stana}, T. and 
+	{Tajima}, H. and {Takahashi}, H. and {Uchida}, N. and {Pearce}, M.
+	},
+    title = "{Accretion geometry of the black-hole binary Cygnus X-1 from X-ray polarimetry}",
+  journal = {Nature Astronomy},
+     year = 2018,
+    month = jun,
+   volume = 2,
+    pages = {652-655},
+ abstract = "{Black hole binary (BHB) systems comprise a stellar-mass black hole and a
+closely orbiting companion star. Matter is transferred from the
+companion to the black hole, forming an accretion disk, corona and jet
+structures. The resulting release of gravitational energy leads to the
+emission of X-rays$^{1}$. The radiation is affected by
+special/general relativistic effects, and can serve as a probe for the
+properties of the black hole and surrounding environment, if the
+accretion geometry is properly identified. Two competing models describe
+the disk-corona geometry for the hard spectral state of BHBs, based on
+spectral and timing measurements$^{2,3}$. Measuring the
+polarization of hard X-rays reflected from the disk allows the geometry
+to be determined. The extent of the corona differs between the two
+models, affecting the strength of the relativistic effects (such as
+enhancement of the polarization fraction and rotation of the
+polarization angle). Here, we report observational results on the linear
+polarization of hard X-ray emission (19-181 keV) from a BHB, Cygnus
+X-1$^{4}$, in the hard state. The low polarization fraction,
+$\lt$8.6\% (upper limit at a 90\% confidence level), and the alignment of
+the polarization angle with the jet axis show that the dominant emission
+is not influenced by strong gravity. When considered together with
+existing spectral and timing data, our result reveals that the accretion
+corona is either an extended structure, or is located far from the black
+hole in the hard state of Cygnus X-1.
+}",
+      doi = {10.1038/s41550-018-0489-x},
+   adsurl = {http://adsabs.harvard.edu/abs/2018NatAs...2..652C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2018MNRAS.477L..45C,
+   author = {{Chauvin}, M. and {Flor{\'e}n}, H.-G. and {Friis}, M. and {Jackson}, M. and 
+	{Kamae}, T. and {Kataoka}, J. and {Kawano}, T. and {Kiss}, M. and 
+	{Mikhalev}, V. and {Mizuno}, T. and {Tajima}, H. and {Takahashi}, H. and 
+	{Uchida}, N. and {Pearce}, M.},
+    title = "{The PoGO+ view on Crab off-pulse hard X-ray polarization}",
+  journal = {Monthly Notices of the Royal Astronomical Society},
+archivePrefix = "arXiv",
+   eprint = {1802.07775},
+ primaryClass = "astro-ph.HE",
+ keywords = {instrumentation: polarimeters, methods: statistical},
+     year = 2018,
+    month = jun,
+   volume = 477,
+    pages = {L45-L49},
+ abstract = "{The linear polarization fraction (PF) and angle of the hard X-ray
+emission from the Crab provide unique insight into high-energy radiation
+mechanisms, complementing the usual imaging, timing, and spectroscopic
+approaches. Results have recently been presented by two missions
+operating in partially overlapping energy bands, PoGO+ (18-160 keV) and
+AstroSat CZTI (100-380 keV). We previously reported PoGO+ results on the
+polarization parameters integrated across the light curve and for the
+entire nebula-dominated off-pulse region. We now introduce finer phase
+binning, in light of the AstroSat CZTI claim that the PF varies across
+the off-pulse region. Since both missions are operating in a regime
+where errors on the reconstructed polarization parameters are
+non-Gaussian, we adopt a Bayesian approach to compare results from each
+mission. We find no statistically significant variation in off-pulse
+polarization parameters, neither when considering the mission data
+separately nor when they are combined. This supports expectations from
+standard high-energy emission models.
+}",
+      doi = {10.1093/mnrasl/sly027},
+   adsurl = {http://adsabs.harvard.edu/abs/2018MNRAS.477L..45C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017NatSR...7.7816C,
+   author = {{Chauvin}, M. and {Flor{\'e}n}, H.-G. and {Friis}, M. and {Jackson}, M. and 
+	{Kamae}, T. and {Kataoka}, J. and {Kawano}, T. and {Kiss}, M. and 
+	{Mikhalev}, V. and {Mizuno}, T. and {Ohashi}, N. and {Stana}, T. and 
+	{Tajima}, H. and {Takahashi}, H. and {Uchida}, N. and {Pearce}, M.
+	},
+    title = "{Shedding new light on the Crab with polarized X-rays}",
+  journal = {Scientific Reports},
+archivePrefix = "arXiv",
+   eprint = {1706.09203},
+ primaryClass = "astro-ph.HE",
+     year = 2017,
+    month = aug,
+   volume = 7,
+      eid = {7816},
+    pages = {7816},
+ abstract = "{Strong magnetic fields, synchrotron emission, and Compton scattering are
+omnipresent in compact celestial X-ray sources. Emissions in the X-ray
+energy band are consequently expected to be linearly polarized. X-ray
+polarimetry provides a unique diagnostic to study the location and
+fundamental mechanisms behind emission processes. The polarization of
+emissions from a bright celestial X-ray source, the Crab, is reported
+here for the first time in the hard X-ray band ( 20-160 keV). The Crab
+is a complex system consisting of a central pulsar, a diffuse pulsar
+wind nebula, as well as structures in the inner nebula including a jet
+and torus. Measurements are made by a purpose-built and calibrated
+polarimeter, PoGO+. The polarization vector is found to be aligned with
+the spin axis of the pulsar for a polarization fraction, PF = (20.9
+{\plusmn} 5.0)\%. This is higher than that of the optical diffuse nebula,
+implying a more compact emission site, though not as compact as, e.g.,
+the synchrotron knot. Contrary to measurements at higher energies, no
+significant temporal evolution of phase-integrated polarisation
+parameters is observed. The polarization parameters for the pulsar
+itself are measured for the first time in the X-ray energy band and are
+consistent with observations at optical wavelengths.
+}",
+      doi = {10.1038/s41598-017-07390-7},
+   adsurl = {http://adsabs.harvard.edu/abs/2017NatSR...7.7816C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017NIMPA.859..125C,
+   author = {{Chauvin}, M. and {Friis}, M. and {Jackson}, M. and {Kawano}, T. and 
+	{Kiss}, M. and {Mikhalev}, V. and {Ohashi}, N. and {Stana}, T. and 
+	{Takahashi}, H. and {Pearce}, M.},
+    title = "{Calibration and performance studies of the balloon-borne hard X-ray polarimeter PoGO+}",
+  journal = {Nuclear Instruments and Methods in Physics Research A},
+archivePrefix = "arXiv",
+   eprint = {1703.07627},
+ primaryClass = "astro-ph.IM",
+ keywords = {X-ray, Polarisation, Compton scattering, Scientific ballooning, Crab, Cygnus X-1, Monte Carlo simulations},
+     year = 2017,
+    month = jul,
+   volume = 859,
+    pages = {125-133},
+ abstract = "{Polarimetric observations of celestial sources in the hard X-ray band
+stand to provide new information on emission mechanisms and source
+geometries. PoGO+ is a Compton scattering polarimeter (20-150 keV)
+optimised for the observation of the Crab (pulsar and wind nebula) and
+Cygnus X-1 (black hole binary), from a stratospheric balloon-borne
+platform launched from the Esrange Space Centre in summer 2016. Prior to
+flight, the response of the polarimeter has been studied with polarised
+and unpolarised X-rays allowing a Geant4-based simulation model to be
+validated. The expected modulation factor for Crab observations is found
+to be M$_{Crab}$ = (41.75 {\plusmn} 0.85) \% , resulting in an
+expected Minimum Detectable Polarisation (MDP) of 7.3\% for a 7 day
+flight. This will allow a measurement of the Crab polarisation
+parameters with at least 5 {$\sigma$} statistical significance assuming a
+polarisation fraction {\sim} 20 \% - a significant improvement over the
+PoGOLite Pathfinder mission which flew in 2013 and from which the PoGO+
+design is developed.
+}",
+      doi = {10.1016/j.nima.2017.03.027},
+   adsurl = {http://adsabs.harvard.edu/abs/2017NIMPA.859..125C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016APh....82...99C,
+   author = {{Chauvin}, M. and {Jackson}, M. and {Kawano}, T. and {Kiss}, M. and 
+	{Kole}, M. and {Mikhalev}, V. and {Moretti}, E. and {Takahashi}, H. and 
+	{Pearce}, M.},
+    title = "{Optimising a balloon-borne polarimeter in the hard X-ray domain: From the PoGOLite Pathfinder to PoGO+}",
+  journal = {Astroparticle Physics},
+archivePrefix = "arXiv",
+   eprint = {1606.04504},
+ primaryClass = "astro-ph.IM",
+ keywords = {X-ray, Polarimeter, Balloon, Crab, Simulation, Geant4},
+     year = 2016,
+    month = sep,
+   volume = 82,
+    pages = {99-107},
+ abstract = "{PoGOLite is a balloon-borne hard X-ray polarimeter dedicated to the
+study of point sources. Compton scattered events are registered using an
+array of plastic scintillator units to determine the polarisation of
+incident X-rays in the energy range 20-240 keV. In 2013, a near
+circumpolar balloon flight of 14 days duration was completed after
+launch from Esrange, Sweden, resulting in a measurement of the linear
+polarisation of the Crab emission. Building on the experience gained
+from this Pathfinder flight, the polarimeter is being modified to
+improve performance for a second flight in 2016. Such optimisations,
+based on Geant4 Monte Carlo simulations, take into account the source
+characteristics, the instrument response and the background environment
+which is dominated by atmospheric neutrons. This paper describes the
+optimisation of the polarimeter and details the associated increase in
+performance. The resulting design, PoGO+, is expected to improve the
+Minimum Detectable Polarisation (MDP) for the Crab from 19.8\% to 11.1\%
+for a 5 day flight. Assuming the same Crab polarisation fraction as
+measured during the 2013 flight, this improvement in MDP will allow a
+5{$\sigma$} constrained result. It will also allow the study of the nebula
+emission only (Crab off-pulse) and Cygnus X-1 if in the hard state.
+}",
+      doi = {10.1016/j.astropartphys.2016.06.005},
+   adsurl = {http://adsabs.harvard.edu/abs/2016APh....82...99C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2016SPIE.9905E..15S,
+   author = {{Soffitta}, P. and {Bellazzini}, R. and {Bozzo}, E. and {Burwitz}, V. and 
+	{Castro-Tirado}, A. and {Costa}, E. and {Courvoisier}, T. and 
+	{Feng}, H. and {Gburek}, S. and {Goosmann}, R. and {Karas}, V. and 
+	{Matt}, G. and {Muleri}, F. and {Nandra}, K. and {Pearce}, M. and 
+	{Poutanen}, J. and {Reglero}, V. and {Sabau Maria}, D. and {Santangelo}, A. and 
+	{Tagliaferri}, G. and {Tenzer}, C. and {Vink}, J. and {Weisskopf}, M.~C. and 
+	{Zane}, S. and {Agudo}, I. and {Antonelli}, A. and {Attina}, P. and 
+	{Baldini}, L. and {Bykov}, A. and {Carpentiero}, R. and {Cavazzuti}, E. and 
+	{Churazov}, E. and {Del Monte}, E. and {De Martino}, D. and 
+	{Donnarumma}, I. and {Doroshenko}, V. and {Evangelista}, Y. and 
+	{Ferreira}, I. and {Gallo}, E. and {Grosso}, N. and {Kaaret}, P. and 
+	{Kuulkers}, E. and {Laranaga}, J. and {Latronico}, L. and {Lumb}, D.~H. and 
+	{Macian}, J. and {Malzac}, J. and {Marin}, F. and {Massaro}, E. and 
+	{Minuti}, M. and {Mundell}, C. and {Ness}, J.~U. and {Oosterbroek}, T. and 
+	{Paltani}, S. and {Pareschi}, G. and {Perna}, R. and {Petrucci}, P.-O. and 
+	{Pinazo}, H.~B. and {Pinchera}, M. and {Rodriguez}, J.~P. and 
+	{Roncadelli}, M. and {Santovincenzo}, A. and {Sazonov}, S. and 
+	{Sgro}, C. and {Spiga}, D. and {Svoboda}, J. and {Theobald}, C. and 
+	{Theodorou}, T. and {Turolla}, R. and {Wilhelmi de Ona}, E. and 
+	{Winter}, B. and {Akbar}, A.~M. and {Allan}, H. and {Aloisio}, R. and 
+	{Altamirano}, D. and {Amati}, L. and {Amato}, E. and {Angelakis}, E. and 
+	{Arezu}, J. and {Atteia}, J.-L. and {Axelsson}, M. and {Bachetti}, M. and 
+	{Ballo}, L. and {Balman}, S. and {Bandiera}, R. and {Barcons}, X. and 
+	{Basso}, S. and {Baykal}, A. and {Becker}, W. and {Behar}, E. and 
+	{Beheshtipour}, B. and {Belmont}, R. and {Berger}, E. and {Bernardini}, F. and 
+	{Bianchi}, S. and {Bisnovatyi-Kogan}, G. and {Blasi}, P. and 
+	{Blay}, P. and {Bodaghee}, A. and {Boer}, M. and {Boettcher}, M. and 
+	{Bogdanov}, S. and {Bombaci}, I. and {Bonino}, R. and {Braga}, J. and 
+	{Brandt}, W. and {Brez}, A. and {Bucciantini}, N. and {Burderi}, L. and 
+	{Caiazzo}, I. and {Campana}, R. and {Campana}, S. and {Capitanio}, F. and 
+	{Cappi}, M. and {Cardillo}, M. and {Casella}, P. and {Catmabacak}, O. and 
+	{Cenko}, B. and {Cerda-Duran}, P. and {Cerruti}, C. and {Chaty}, S. and 
+	{Chauvin}, M. and {Chen}, Y. and {Chenevez}, J. and {Chernyakova}, M. and 
+	{Cheung}, C.~C.~T. and {Christodoulou}, D. and {Connell}, P. and 
+	{Corbet}, R. and {Coti Zelati}, F. and {Covino}, S. and {Cui}, W. and 
+	{Cusumano}, G. and {D'Ai}, A. and {D'Ammando}, F. and {Dadina}, M. and 
+	{Dai}, Z. and {De Rosa}, A. and {de Ruvo}, L. and {Degenaar}, N. and 
+	{Del Santo}, M. and {Del Zanna}, L. and {Dewangan}, G. and {Di Cosimo}, S. and 
+	{Di Lalla}, N. and {Di Persio}, G. and {Di Salvo}, T. and {Dias}, T. and 
+	{Done}, C. and {Dovciak}, M. and {Doyle}, G. and {Ducci}, L. and 
+	{Elsner}, R. and {Enoto}, T. and {Escada}, J. and {Esposito}, P. and 
+	{Eyles}, C. and {Fabiani}, S. and {Falanga}, M. and {Falocco}, S. and 
+	{Fan}, Y. and {Fender}, R. and {Feroci}, M. and {Ferrigno}, C. and 
+	{Forman}, W. and {Foschini}, L. and {Fragile}, C. and {Fuerst}, F. and 
+	{Fujita}, Y. and {Gasent-Blesa}, J.~L. and {Gelfand}, J. and 
+	{Gendre}, B. and {Ghirlanda}, G. and {Ghisellini}, G. and {Giroletti}, M. and 
+	{Goetz}, D. and {Gogus}, E. and {Gomez}, J.-L. and {Gonzalez}, D. and 
+	{Gonzalez-Riestra}, R. and {Gotthelf}, E. and {Gou}, L. and 
+	{Grandi}, P. and {Grinberg}, V. and {Grise}, F. and {Guidorzi}, C. and 
+	{Gurlebeck}, N. and {Guver}, T. and {Haggard}, D. and {Hardcastle}, M. and 
+	{Hartmann}, D. and {Haswell}, C. and {Heger}, A. and {Hernanz}, M. and 
+	{Heyl}, J. and {Ho}, L. and {Hoormann}, J. and {Horak}, J. and 
+	{Huovelin}, J. and {Huppenkothen}, D. and {Iaria}, R. and {Inam Sitki}, C. and 
+	{Ingram}, A. and {Israel}, G. and {Izzo}, L. and {Burgess}, M. and 
+	{Jackson}, M. and {Ji}, L. and {Jiang}, J. and {Johannsen}, T. and 
+	{Jones}, C. and {Jorstad}, S. and {Kajava}, J.~J.~E. and {Kalamkar}, M. and 
+	{Kalemci}, E. and {Kallman}, T. and {Kamble}, A. and {Kislat}, F. and 
+	{Kiss}, M. and {Klochkov}, D. and {Koerding}, E. and {Kolehmainen}, M. and 
+	{Koljonen}, K. and {Komossa}, S. and {Kong}, A. and {Korpela}, S. and 
+	{Kowalinski}, M. and {Krawczynski}, H. and {Kreykenbohm}, I. and 
+	{Kuss}, M. and {Lai}, D. and {Lan}, M. and {Larsson}, J. and 
+	{Laycock}, S. and {Lazzati}, D. and {Leahy}, D. and {Li}, H. and 
+	{Li}, J. and {Li}, L.-X. and {Li}, T. and {Li}, Z. and {Linares}, M. and 
+	{Lister}, M. and {Liu}, H. and {Lodato}, G. and {Lohfink}, A. and 
+	{Longo}, F. and {Luna}, G. and {Lutovinov}, A. and {Mahmoodifar}, S. and 
+	{Maia}, J. and {Mainieri}, V. and {Maitra}, C. and {Maitra}, D. and 
+	{Majczyna}, A. and {Maldera}, S. and {Malyshev}, D. and {Manfreda}, A. and 
+	{Manousakis}, A. and {Manuel}, R. and {Margutti}, R. and {Marinucci}, A. and 
+	{Markoff}, S. and {Marscher}, A. and {Marshall}, H. and {Massaro}, F. and 
+	{McLaughlin}, M. and {Medina-Tanco}, G. and {Mehdipour}, M. and 
+	{Middleton}, M. and {Mignani}, R. and {Mimica}, P. and {Mineo}, T. and 
+	{Mingo}, B. and {Miniutti}, G. and {Mirac}, S.~M. and {Morlino}, G. and 
+	{Motlagh}, A.~V. and {Motta}, S. and {Mushtukov}, A. and {Nagataki}, S. and 
+	{Nardini}, F. and {Nattila}, J. and {Navarro}, G.~J. and {Negri}, B. and 
+	{Negro}, M. and {Nenonen}, S. and {Neustroev}, V. and {Nicastro}, F. and 
+	{Norton}, A. and {Nucita}, A. and {O'Brien}, P. and {O'Dell}, S.
+	},
+    title = "{XIPE: the x-ray imaging polarimetry explorer}",
+booktitle = {Space Telescopes and Instrumentation 2016: Ultraviolet to Gamma Ray},
+     year = 2016,
+   series = {Proceedings of the SPIE},
+   volume = 9905,
+    month = jul,
+      eid = {990515},
+    pages = {990515},
+ abstract = "{XIPE, the X-ray Imaging Polarimetry Explorer, is a mission dedicated to
+X-ray Astronomy. At the time of writing XIPE is in a competitive phase A
+as fourth medium size mission of ESA (M4). It promises to reopen the
+polarimetry window in high energy Astrophysics after more than 4 decades
+thanks to a detector that efficiently exploits the photoelectric effect
+and to X-ray optics with large effective area. XIPE uniqueness is
+time-spectrally-spatially- resolved X-ray polarimetry as a breakthrough
+in high energy astrophysics and fundamental physics. Indeed the payload
+consists of three Gas Pixel Detectors at the focus of three X-ray optics
+with a total effective area larger than one XMM mirror but with a low
+weight. The payload is compatible with the fairing of the Vega launcher.
+XIPE is designed as an observatory for X-ray astronomers with 75 \% of
+the time dedicated to a Guest Observer competitive program and it is
+organized as a consortium across Europe with main contributions from
+Italy, Germany, Spain, United Kingdom, Poland, Sweden.
+}",
+      doi = {10.1117/12.2233046},
+   adsurl = {http://adsabs.harvard.edu/abs/2016SPIE.9905E..15S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016MNRAS.456L..84C,
+   author = {{Chauvin}, M. and {Flor{\'e}n}, H.-G. and {Jackson}, M. and 
+	{Kamae}, T. and {Kawano}, T. and {Kiss}, M. and {Kole}, M. and 
+	{Mikhalev}, V. and {Moretti}, E. and {Olofsson}, G. and {Rydstr{\"o}m}, S. and 
+	{Takahashi}, H. and {Iyudin}, A. and {Arimoto}, M. and {Fukazawa}, Y. and 
+	{Kataoka}, J. and {Kawai}, N. and {Mizuno}, T. and {Ryde}, F. and 
+	{Tajima}, H. and {Takahashi}, T. and {Pearce}, M.},
+    title = "{Observation of polarized hard X-ray emission from the Crab by the PoGOLite Pathfinder}",
+  journal = {Monthly Notices of the Royal Astronomical Society},
+archivePrefix = "arXiv",
+   eprint = {1511.02735},
+ primaryClass = "astro-ph.IM",
+ keywords = {instrumentation: polarimeters, techniques: polarimetric, stars: neutron, pulsars: individual: the Crab pulsar},
+     year = 2016,
+    month = feb,
+   volume = 456,
+    pages = {L84-L88},
+ abstract = "{We have measured the linear polarization of hard X-ray emission from the
+Crab in a previously unexplored energy interval, 20-120 keV. The
+introduction of two new observational parameters, the polarization
+fraction and angle stands to disentangle geometrical and physical
+effects, thereby providing information on the pulsar wind geometry and
+magnetic field environment. Measurements are conducted using the
+PoGOLite Pathfinder - a balloon-borne polarimeter. Polarization is
+determined by measuring the azimuthal Compton scattering angle of
+incident X-rays in an array of plastic scintillators housed in an
+anticoincidence well. The polarimetric response has been characterized
+prior to flight using both polarized and unpolarized calibration
+sources. We address possible systematic effects through observations of
+a background field. The measured polarization fraction for the
+integrated Crab light curve is 18.4\^{}$\{$+9.8$\}$\_$\{$-10.6$\}$ per cent,
+corresponding to an upper limit (99 per cent credibility) of 42.4 per
+cent, for a polarization angle of (149.2 {\plusmn} 16.0){\deg}.
+}",
+      doi = {10.1093/mnrasl/slv177},
+   adsurl = {http://adsabs.harvard.edu/abs/2016MNRAS.456L..84C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016ExA....41...17C,
+   author = {{Chauvin}, M. and {Flor{\'e}n}, H.-G. and {Jackson}, M. and 
+	{Kamae}, T. and {Kawano}, T. and {Kiss}, M. and {Kole}, M. and 
+	{Mikhalev}, V. and {Moretti}, E. and {Olofsson}, G. and {Rydstr{\"o}m}, S. and 
+	{Takahashi}, H. and {Lind}, J. and {Str{\"o}mberg}, J.-E. and 
+	{Welin}, O. and {Iyudin}, A. and {Shifrin}, D. and {Pearce}, M.
+	},
+    title = "{The design and flight performance of the PoGOLite Pathfinder balloon-borne hard X-ray polarimeter}",
+  journal = {Experimental Astronomy},
+archivePrefix = "arXiv",
+   eprint = {1508.03345},
+ primaryClass = "astro-ph.IM",
+ keywords = {X-ray polarimetry, Scientific ballooning, Crab},
+     year = 2016,
+    month = feb,
+   volume = 41,
+    pages = {17-41},
+ abstract = "{In the 50 years since the advent of X-ray astronomy there have been many
+scientific advances due to the development of new experimental
+techniques for detecting and characterising X-rays. Observations of
+X-ray polarisation have, however, not undergone a similar development.
+This is a shortcoming since a plethora of open questions related to the
+nature of X-ray sources could be resolved through measurements of the
+linear polarisation of emitted X-rays. The PoGOLite Pathfinder is a
+balloon-borne hard X-ray polarimeter operating in the 25-240 keV energy
+band from a stabilised observation platform. Polarisation is determined
+using coincident energy deposits in a segmented array of plastic
+scintillators surrounded by a BGO anticoincidence system and a
+polyethylene neutron shield. The PoGOLite Pathfinder was launched from
+the SSC Esrange Space Centre in July 2013. A near-circumpolar flight was
+achieved with a duration of approximately two weeks. The flight
+performance of the Pathfinder design is discussed for the three Crab
+observations conducted. The signal-to-background ratio for the
+observations is shown to be 0.25 {\plusmn}0.03 and the Minimum Detectable
+Polarisation (99 \% C.L.) is (28.4 {\plusmn}2.2) \%. A strategy for the
+continuation of the PoGOLite programme is outlined based on experience
+gained during the 2013 maiden flight.
+}",
+      doi = {10.1007/s10686-015-9474-x},
+   adsurl = {http://adsabs.harvard.edu/abs/2016ExA....41...17C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2016APh....72....1C,
+   author = {{Chauvin}, M. and {Jackson}, M. and {Kawano}, T. and {Kiss}, M. and 
+	{Kole}, M. and {Mikhalev}, V. and {Moretti}, E. and {Takahashi}, H. and 
+	{Pearce}, M.},
+    title = "{Preflight performance studies of the PoGOLite hard X-ray polarimeter}",
+  journal = {Astroparticle Physics},
+archivePrefix = "arXiv",
+   eprint = {1505.08093},
+ primaryClass = "astro-ph.IM",
+ keywords = {Polarimeter, X-ray, Crab, Balloon},
+     year = 2016,
+    month = jan,
+   volume = 72,
+    pages = {1-10},
+ abstract = "{Polarimetric studies of astrophysical sources can make important
+contributions to resolve the geometry of the emitting region and
+determine the photon emission mechanism. PoGOLite is a balloon-borne
+polarimeter operating in the hard X-ray band (25-240 keV), with a
+Pathfinder mission focussing on Crab observations. Within the
+polarimeter, the distribution of Compton scattering angles is used to
+determine the polarisation fraction and angle of incident photons. To
+assure an unbiased measurement of the polarisation during a balloon
+flight it is crucial to characterise the performance of the instrument
+before the launch. This paper presents the results of the PoGOLite
+calibration tests and simulations performed before the 2013 balloon
+flight. The tests performed confirm that the polarimeter does not have
+any intrinsic asymmetries and therefore does not induce bias into the
+measurements. Generally, good agreement is found between results from
+test data and simulations which allows the polarimeter performance to be
+estimated for Crab observations.
+}",
+      doi = {10.1016/j.astropartphys.2015.05.003},
+   adsurl = {http://adsabs.harvard.edu/abs/2016APh....72....1C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2015NIMPA.770...68K,
+   author = {{Kole}, M. and {Chauvin}, M. and {Fukazawa}, Y. and {Fukuda}, K. and 
+	{Ishizu}, S. and {Jackson}, M. and {Kamae}, T. and {Kawaguchi}, N. and 
+	{Kawano}, T. and {Kiss}, M. and {Moretti}, E. and {Pearce}, M. and 
+	{Rydstr{\"o}m}, S. and {Takahashi}, H. and {Yanagida}, T.},
+    title = "{PoGOLino: A scintillator-based balloon-borne neutron detector}",
+  journal = {Nuclear Instruments and Methods in Physics Research A},
+archivePrefix = "arXiv",
+   eprint = {1410.2377},
+ primaryClass = "astro-ph.IM",
+ keywords = {Neutron detection, Balloon-borne, Astroparticle physics, Phoswich scintillator, LiCAF},
+     year = 2015,
+    month = jan,
+   volume = 770,
+    pages = {68-75},
+ abstract = "{PoGOLino is a balloon-borne scintillator-based experiment developed to
+study the largely unexplored high altitude neutron environment at high
+geomagnetic latitudes. The instrument comprises two detectors that make
+use of LiCAF, a novel neutron sensitive scintillator, sandwiched by BGO
+crystals for background reduction. The experiment was launched on March
+20th 2013 from the Esrange Space Centre, Northern Sweden (geomagnetic
+latitude of 65{\deg}), for a three hour flight during which the
+instrument took data up to an altitude of 30.9 km. The detector design
+and ground calibration results are presented together with the
+measurement results from the balloon flight.
+}",
+      doi = {10.1016/j.nima.2014.10.016},
+   adsurl = {http://adsabs.harvard.edu/abs/2015NIMPA.770...68K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2014SPIE.9144E..4IT,
+   author = {{Takahashi}, H. and {Chauvin}, M. and {Fukazawa}, Y. and {Jackson}, M. and 
+	{Kamae}, T. and {Kawano}, T. and {Kiss}, M. and {Kole}, M. and 
+	{Mikhalev}, V. and {Mizuno}, T. and {Moretti}, E. and {Pearce}, M. and 
+	{Rydstr{\"o}m}, S.},
+    title = "{Data acquisition system and ground calibration of polarized gamma-ray observer (PoGOLite)}",
+booktitle = {Space Telescopes and Instrumentation 2014: Ultraviolet to Gamma Ray},
+     year = 2014,
+   series = {Proceedings of the SPIE},
+   volume = 9144,
+    month = jul,
+      eid = {91444I},
+    pages = {91444I},
+ abstract = "{The Polarized Gamma-ray Observer, PoGOLite, is a balloon experiment with
+the capability of detecting 10\% polarization from a 200 mCrab celestial
+object between the energy-range 25-80 keV in one 6 hour flight.
+Polarization measurements in soft gamma-rays are expected to provide a
+powerful probe into high-energy emission mechanisms in/around neutron
+stars, black holes, supernova remnants, active-galactic nuclei etc. The
+``pathfinder'' flight was performed in July 2013 for 14 days from Sweden
+to Russia. The polarization is measured using Compton scattering and
+photoelectric absorption in an array of 61 well-type phoswich detector
+cells (PDCs) for the pathfinder instrument. The PDCs are surrounded by
+30 BGO crystals which form a side anti-coincidence shield (SAS) and
+passive polyethylene neutron shield. There is a neutron detector
+consisting of LiCaAlF6 (LiCAF) scintillator covered with BGOs to measure
+the background contribution of atmospheric neutrons. The data
+acquisition system treats 92 PMT signals from 61 PDCs + 30 SASs + 1
+neutron detector, and it is developed based on SpaceWire spacecraft
+communication network. Most of the signal processing is done by digital
+circuits in Field Programmable Gate Arrays (FPGAs). This enables the
+reduction of the mass, the space and the power consumption. The
+performance was calibrated before the launch.
+}",
+      doi = {10.1117/12.2056723},
+   adsurl = {http://adsabs.harvard.edu/abs/2014SPIE.9144E..4IT},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2014ApJ...789...26J,
+   author = {{Jourdain}, E. and {Roques}, J.~P. and {Chauvin}, M.},
+    title = "{INTEGRAL SPI Observations of Cygnus X-1 in the Soft State: What about the Jet Contribution in Hard X-Rays?}",
+  journal = {Astrophysical Journal},
+ keywords = {methods: observational, polarization, radiation mechanisms: general, X-rays: binaries, X-rays: individual: Cyg X-1},
+     year = 2014,
+    month = jul,
+   volume = 789,
+      eid = {26},
+    pages = {26},
+ abstract = "{During the first 7 yr of the INTEGRAL mission (2003-2009), Cyg X-1 has
+essentially been detected in its hard state (HS), with some incursions
+in intermediate HSs. This long, spectrally stable period allowed in
+particular the measurement of the polarization of the high-energy
+component that has long been observed above 200 keV in this peculiar
+object. This result strongly suggests that here we see the contribution
+of the jet, known to emit a strong synchrotron radio emission. In 2010
+June, Cyg X-1 underwent a completed transition toward a soft state (SS).
+It gave us the unique opportunity to study in detail the corona emission
+in this spectral state, and to investigate in particular the behavior of
+the jet contribution. Indeed, during the SS, the hard X-ray emission
+decreases drastically, with its maximum energy shifted toward lower
+energy and its flux divided by a factor of \~{}5-10. Interestingly, the
+radio emission follows a similar drop, supporting the correlation
+between the jet emission and the hard component, even though the flux is
+too low to quantify the polarization characteristics.
+
+Based on observations with INTEGRAL, an ESA project with instruments and
+science data center funded by ESA member states (especially the PI
+countries: Denmark, France, Germany, Italy, Spain, and Switzerland), the
+Czech Republic and Poland with the participation of Russia and USA.
+}",
+      doi = {10.1088/0004-637X/789/1/26},
+   adsurl = {http://adsabs.harvard.edu/abs/2014ApJ...789...26J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2014tipp.confE.135K,
+   author = {{Kole}, M. and {Chauvin}, M. and {Fukazawa}, Y. and {Fukuda}, K. and 
+	{Ishizu}, S. and {Jackson}, M. and {Kamae}, T. and {Kawaguchi}, N. and 
+	{Kawano}, T. and {Kiss}, M. and {Mikhalev}, V. and {Moretti}, E. and 
+	{Pearce}, M. and {Rydstr{\"o}m}, S. and {Takahashi}, H. and 
+	{Yanagida}, T.},
+    title = "{Neutron Background Detection for a Hard X-ray Balloon-borne Polarimeter}",
+booktitle = {Proceedings of Technology and Instrumentation in Particle Physics 2014 (TIPP2014). 2-6 June 2014. Amsterdam, the Netherlands. Online at <A href=``http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=213''>http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=213</A>, id.135},
+     year = 2014,
+      eid = {135},
+    pages = {135},
+   adsurl = {http://adsabs.harvard.edu/abs/2014tipp.confE.135K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2014cosp...40E1552K,
+   author = {{Kole}, M. and {Pearce}, M. and {Fukazawa}, Y. and {Fukuda}, K. and 
+	{Ishizu}, S. and {Jackson}, M. and {Kamae}, T. and {Kawaguchi}, N. and 
+	{Kawano}, T. and {Kiss}, M. and {Moretti}, E. and {Yanagida}, T. and 
+	{Chauvin}, M. and {Mikhalev}, V. and {Rydstrom}, S. and {Takahashi}, H.
+	},
+    title = "{Atmospheric Neutron Measurements using a Small Scintillator Based Detector}",
+booktitle = {40th COSPAR Scientific Assembly},
+     year = 2014,
+   series = {COSPAR Meeting},
+   volume = 40,
+ abstract = "{PoGOLino is a standalone scintillator-based neutron detector designed
+for balloon-borne missions. Its main purpose is to provide data of the
+neutron flux in 2 different energy ranges in the high altitude / high
+latitude region where the highest neutron flux in the atmosphere is
+found. Furthermore the influence of the Solar activity upon the neutron
+environment in this region is relatively strong. As a result both short
+and long term time fluctuations are strongest in this region. At high
+altitudes neutrons can form a source of background for balloon-borne
+scientific measurements. They can furthermore form a major source for
+single event upsets in electronics. A good understanding of the high
+altitude / high latitude neutron environment is therefore important.
+Measurements of the neutron environment in this region are however
+lacking. PoGOLino contains two 5 mm thick Lithium Calcium Aluminium
+Fluoride (LiCAF) scintillators used for neutron detection. The LiCAF
+crystals are sandwiched between 2 Bismuth Germanium Oxide (BGO)
+scintillating crystals, which serve to veto signals produced by
+gamma-rays and charged particles. The veto system makes measurements of
+the neutron flux possible even in high radiation environments. One LiCAF
+detector is shielded with polyethylene while the second remains
+unshielded, making the detectors sensitive in different energy ranges.
+The choice of a scintillator crystals as the detection material ensures
+a high detection efficiency while keeping the instrument small, robust
+and light weight. The full standalone cylindrical instrument has a
+radius of 120 mm, a height of 670 mm and a total mass of 13 kg, making
+it suitable as a piggy back mission. PoGOLino was successfully launched
+on March 20th 2013 from the Esrange Space Center in Northern Sweden to
+an altitude of 30.9 km. A detailed description of the detector design is
+presented, along with results of of the flight. The neutron flux
+measured during flight is compared to predictions based on
+PLANETOCOSMICS and Geant4 simulations.
+}",
+   adsurl = {http://adsabs.harvard.edu/abs/2014cosp...40E1552K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2014cosp...40E1551K,
+   author = {{Kole}, M. and {Pearce}, M. and {Fukazawa}, Y. and {Fukuda}, K. and 
+	{Ishizu}, S. and {Jackson}, M. and {Kamae}, T. and {Kawaguchi}, N. and 
+	{Kawano}, T. and {Kiss}, M. and {Moretti}, E. and {Yanagida}, T. and 
+	{Chauvin}, M. and {Mikhalev}, V. and {Rydstrom}, S. and {Takahashi}, H.
+	},
+    title = "{Atmospheric Neutron Measurements for a Hard X-ray Balloon-borne Polarimeter}",
+booktitle = {40th COSPAR Scientific Assembly},
+     year = 2014,
+   series = {COSPAR Meeting},
+   volume = 40,
+ abstract = "{PoGOLite is a balloon-borne hard X-ray polarimeter. It determines
+polarisation by measuring the azimuthal distribution of Compton
+scattered photons in a plastic scintillator array. The dominant source
+of background for these measurements has been shown through Geant4
+simulations to originate from high energy (MeV range) atmospheric
+neutrons produced in cosmic ray induced air showers. PoGOLite was
+launched in July 2013 from the Esrange Space Centre in Northern Sweden,
+drifted westwards for 15 days at an altitude of 40 km and landed near
+Norilsk in Russia. Due to the low geomagnetic cutoff at which the flight
+took place, the neutron background is relatively high. At these
+latitudes the flux is also sensitive to changes in Solar activity. As a
+result the polarimeter experiences a continuously changing neutron flux
+during flight. The continuous variation of the induced background and
+the lack of data on the neutron flux in the high altitude / high
+latitude region motivates the need for a dedicated neutron detector on
+the payload. For this purpose PoGOLite makes use of a scintillator based
+neutron detector capable of measuring in the high radiation environment
+experienced at stratospheric altitudes. This type of neutron detector
+was tested on a separate dedicated stratospheric balloon mission, called
+PoGOLino, in March 2013. The flight results from both instruments were
+compared to predictions from a Monte Carlo based model developed to
+provide atmospheric neutron spectra for different altitudes, magnetic
+latitudes and solar activities. The flight results from both detectors
+will be presented together with the predictions from the model.
+}",
+   adsurl = {http://adsabs.harvard.edu/abs/2014cosp...40E1551K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2013A&A...555A..52B,
+   author = {{Bouchet}, L. and {Amestoy}, P.~R. and {Buttari}, A. and {Rouet}, F.-H. and 
+	{Chauvin}, M.},
+    title = "{INTEGRAL/SPI data segmentation to retrieve source intensity variations}",
+  journal = {Astronomy and Astrophysics},
+archivePrefix = "arXiv",
+   eprint = {1305.5691},
+ primaryClass = "astro-ph.IM",
+ keywords = {methods: data analysis, methods: numerical, techniques: miscellaneous, techniques: imaging spectroscopy, methods: statistical, gamma rays: general},
+     year = 2013,
+    month = jul,
+   volume = 555,
+      eid = {A52},
+    pages = {A52},
+ abstract = "{Context. The INTEGRAL/SPI, X/{$\gamma$}-ray spectrometer (20 keV-8 MeV) is
+an instrument for which recovering source intensity variations is not
+straightforward and can constitute a difficulty for data analysis. In
+most cases, determining the source intensity changes between exposures
+is largely based on a priori information. <BR /> Aims: We propose
+techniques that help to overcome the difficulty related to source
+intensity variations, which make this step more rational. In addition,
+the constructed ``synthetic'' light curves should permit us to obtain a
+sky model that describes the data better and optimizes the source
+signal-to-noise ratios. <BR /> Methods: For this purpose, the time
+intensity variation of each source was modeled as a combination of
+piecewise segments of time during which a given source exhibits a
+constant intensity. To optimize the signal-to-noise ratios, the number
+of segments was minimized. We present a first method that takes
+advantage of previous time series that can be obtained from another
+instrument on-board the INTEGRAL observatory. A data segmentation
+algorithm was then used to synthesize the time series into segments. The
+second method no longer needs external light curves, but solely SPI raw
+data. For this, we developed a specific algorithm that involves the SPI
+transfer function. <BR /> Results: The time segmentation algorithms that
+were developed solve a difficulty inherent to the SPI instrument, which
+is the intensity variations of sources between exposures, and it allows
+us to obtain more information about the sources' behavior.
+
+Based on observations with INTEGRAL, an ESA project with instruments and
+science data centre funded by ESA member states (especially the PI
+countries: Denmark, France, Germany, Italy, Spain, and Switzerland),
+Czech Republic and Poland with participation of Russia and the USA.
+}",
+      doi = {10.1051/0004-6361/201219605},
+   adsurl = {http://adsabs.harvard.edu/abs/2013A\%26A...555A..52B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2013ApJ...769..137C,
+   author = {{Chauvin}, M. and {Roques}, J.~P. and {Clark}, D.~J. and {Jourdain}, E.
+	},
+    title = "{Polarimetry in the Hard X-Ray Domain with INTEGRAL SPI}",
+  journal = {Astrophysical Journal},
+archivePrefix = "arXiv",
+   eprint = {1305.0802},
+ primaryClass = "astro-ph.IM",
+ keywords = {gamma rays: general, instrumentation: polarimeters, methods: data analysis, polarization },
+     year = 2013,
+    month = jun,
+   volume = 769,
+      eid = {137},
+    pages = {137},
+ abstract = "{We present recent improvements in polarization analysis with the
+INTEGRAL SPI data. The SPI detector plane consists of 19 independent Ge
+crystals and can operate as a polarimeter. The anisotropy
+characteristics of Compton diffusions can provide information on the
+polarization parameters of the incident flux. By including the physics
+of the polarized Compton process in the instrument simulation, we are
+able to determine the instrument response for a linearly polarized
+emission at any position angle. We compare the observed data with the
+simulation sets by a minimum {$\chi$}$^{2}$ technique to determine
+the polarization parameters of the source (angle and fraction). We have
+tested our analysis procedure with Crab Nebula observations and find a
+position angle similar to those previously reported in the literature,
+with a comfortable significance. Since the instrument response depends
+on the incident angle, each exposure in the SPI data requires its own
+set of simulations, calculated for 18 polarization angles (from 0{\deg}
+to 170{\deg} in steps of 10{\deg}) and unpolarized emission. The analysis
+of a large number of observations for a given source, required to obtain
+statistically significant results, represents a large amount of
+computing time, but it is the only way to access this complementary
+information in the hard X-ray regime. Indeed, major scientific advances
+are expected from such studies since the observational results will help
+to discriminate between the different models proposed for the high
+energy emission of compact objects like X-ray binaries and active
+galactic nuclei or gamma-ray bursts.
+
+Based on observations with INTEGRAL, an ESA project with instruments and
+science data center funded by ESA member states (especially the PI
+countries: Denmark, France, Germany, Italy, Spain, and Switzerland),
+Czech Republic, and Poland with participation of Russia and USA.
+}",
+      doi = {10.1088/0004-637X/769/2/137},
+   adsurl = {http://adsabs.harvard.edu/abs/2013ApJ...769..137C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2013A&C.....1...59B,
+   author = {{Bouchet}, L. and {Amestoy}, P. and {Buttari}, A. and {Rouet}, F.-H. and 
+	{Chauvin}, M.},
+    title = "{Simultaneous analysis of large INTEGRAL/SPI$^{1}$ datasets: Optimizing the computation of the solution and its variance using sparse matrix algorithms}",
+  journal = {Astronomy and Computing},
+archivePrefix = "arXiv",
+   eprint = {1305.5683},
+ primaryClass = "astro-ph.IM",
+     year = 2013,
+    month = feb,
+   volume = 1,
+    pages = {59-69},
+ abstract = "{Nowadays, analyzing and reducing the ever larger astronomical datasets
+is becoming a crucial challenge, especially for long cumulated
+observation times. The INTEGRAL/SPI  X/{$\gamma$}-ray spectrometer is
+an instrument for which it is essential to process many exposures at the
+same time in order to increase the low signal-to-noise ratio of the
+weakest sources. In this context, the conventional methods for data
+reduction are inefficient and sometimes not feasible at all. Processing
+several years of data simultaneously requires computing not only the
+solution of a large system of equations, but also the associated
+uncertainties. We aim at reducing the computation time and the memory
+usage. Since the SPI transfer function is sparse, we have used some
+popular methods for the solution of large sparse linear systems; we
+briefly review these methods. We use the Multifrontal Massively Parallel
+Solver (MUMPS) to compute the solution of the system of equations. We
+also need to compute the variance of the solution, which amounts to
+computing selected entries of the inverse of the sparse matrix
+corresponding to our linear system. This can be achieved through one of
+the latest features of the MUMPS software that has been partly motivated
+by this work. In this paper we provide a brief presentation of this
+feature and evaluate its effectiveness on astrophysical problems
+requiring the processing of large datasets simultaneously, such as the
+study of the entire emission of the Galaxy. We used these algorithms to
+solve the large sparse systems arising from SPI data processing and to
+obtain both their solutions and the associated variances. In conclusion,
+thanks to these newly developed tools, processing large datasets arising
+from SPI is now feasible with both a reasonable execution time and a low
+memory usage.
+}",
+      doi = {10.1016/j.ascom.2013.03.002},
+   adsurl = {http://adsabs.harvard.edu/abs/2013A\%26C.....1...59B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ApJ...761...27J,
+   author = {{Jourdain}, E. and {Roques}, J.~P. and {Chauvin}, M. and {Clark}, D.~J.
+	},
+    title = "{Separation of Two Contributions to the High Energy Emission of Cygnus X-1: Polarization Measurements with INTEGRAL SPI}",
+  journal = {Astrophysical Journal},
+archivePrefix = "arXiv",
+   eprint = {1210.4783},
+ primaryClass = "astro-ph.HE",
+ keywords = {methods: observational, polarization, radiation mechanisms: general, X-rays: binaries, X-rays: individual: Cyg X-1 },
+     year = 2012,
+    month = dec,
+   volume = 761,
+      eid = {27},
+    pages = {27},
+ abstract = "{Operational since 2002 on board the INTEGRAL observatory, the SPI
+spectrometer can be used to perform polarization measurements in the
+hard X-ray/soft{$\gamma$}-ray domain (\~{}130 keV-8 MeV). However, this
+phenomenon is complex to measure at high energy and requires high
+fluxes. Cyg X-1 appears to be the best candidate amongst the X-ray
+binaries since it is one of the brightest persistent sources in this
+energy domain. Furthermore, a polarized component has recently been
+reported above 400 keV from IBIS data. We have therefore dedicated our
+efforts to developing the required tools to study the polarization in
+the INTEGRAL SPI data and have first applied them to 2.6 Ms of Cyg X-1
+observations, covering 6.5 years of the INTEGRAL mission. We have found
+that the high energy emission of Cyg X-1 is indeed polarized, with a
+mean polarization fraction of 76\% {\plusmn} 15\% at a position angle
+estimated to be 42{\deg}{\plusmn} 3{\deg}, for energies above 230 keV. The
+polarization fraction clearly increases with energy. In the 130-230 keV
+band, the polarization fraction is lower than 20\%, but exceeds 75\%
+between 370 and 850 keV, with the (total) emission vanishing above this
+energy. This result strongly suggests that the emission originates from
+the jet structure known to emit in the radio domain. The same
+synchrotron process could be responsible for the emission from radio to
+MeV, implying the presence of high energy electrons. This illustrates
+why the polarization of the high energy emission in compact objects is
+an increasingly important observational objective.
+
+Based on observations with INTEGRAL, an ESA project with instruments and
+science data center funded by ESA member states (especially the PI
+countries: Denmark, France, Germany, Italy, Spain, and Switzerland),
+Czech Republic, and Poland, with the participation of Russia and USA.
+}",
+      doi = {10.1088/0004-637X/761/1/27},
+   adsurl = {http://adsabs.harvard.edu/abs/2012ApJ...761...27J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2012ExA....34..489R,
+   author = {{Roques}, J.-P. and {Jourdain}, E. and {Bassani}, L. and {Bazzano}, A. and 
+	{Belmont}, R. and {Bird}, A.~J. and {Caroli}, E. and {Chauvin}, M. and 
+	{Clark}, D. and {Gehrels}, N. and {Goerlach}, U. and {Harrisson}, F. and 
+	{Laurent}, P. and {Malzac}, J. and {Medina}, P. and {Merloni}, A. and 
+	{Paltani}, S. and {Stephen}, J. and {Ubertini}, P. and {Wilms}, J.
+	},
+    title = "{PheniX: a new vision for the hard X-ray sky}",
+  journal = {Experimental Astronomy},
+ keywords = {Hard X-rays, Germanium, Grazing incidence optics, Space instrument},
+     year = 2012,
+    month = oct,
+   volume = 34,
+    pages = {489-517},
+ abstract = "{We are proposing a mission devoted to high energy X-ray astronomy that
+is based on a focusing telescope operating in the 1-200 keV energy range
+but optimized for the hard X-ray range. The main scientific topics
+concern: Physics of compact objects: The proximity of compact objects
+provides a unique laboratory to study matter and radiation in extreme
+conditions of temperature and density in strong gravitational
+environment. The emission of high energy photons from these objects is
+far from being understood. The unprecedented sensitivity in the high
+energy domain will allow a precise determination of the non-thermal
+processes at work in the vicinity of compact objects. The full 1-200 keV
+energy coverage will be ideal to disentangle the emission processes
+produced in the spacetime regions most affected by strong-gravity, as
+well as the physical links: disk-thermal emission-iron
+line-comptonisation-reflection-non-thermal emission-jets. Neutron
+stars-magnetic field-cyclotron lines: Time resolved spectroscopy (and
+polarimetry) at ultra-high sensitivity of AXP, milliseconds pulsars and
+magnetars will give new tools to study the role of the synchrotron
+processes at work in these objects. Cyclotron lines-direct measurement
+of magnetic filed-equation of state constraints-short bursts-giant
+flares could all be studied with great details. AGN: The large
+sensitivity improvement will provide detailed spectral properties of the
+high energy emission of AGN's. This will give a fresh look to the
+connection between accretion and jet emission and will provide a new
+understanding of the physical processes at work. Detection of
+high-redshift active nuclei in this energy range will allow to introduce
+an evolutionary aspect to high-energy studies of AGN, probing directly
+the origin of the Cosmic X-ray Background also in the non-thermal range
+($\gt$ 20 keV). Element formation-Supernovae: The energy resolution
+achievable for this mission ($\lt$0.5 keV) and a large high energy
+effective area are ideally suited for the 44Ti line study (68 and 78
+keV). This radioactive nuclei emission will give an estimate of their
+quantities and speed in their environment. In addition the study of the
+spatial structure and spectral emission of SNR will advance our
+knowledge of the dynamics of supernovae explosions, of particles
+acceleration mechanisms and how the elements are released in the
+interstellar medium. Instrumental design: The progress of X-ray focusing
+optics techniques allows a major step in the instrumental design: the
+collecting area becomes independent of the detection area. This
+drastically reduces the instrumental background and will open a new era.
+The optics will be based on depth-graded multi-layer mirrors in a Wolter
+I configuration. To obtain a significant effective area in the hundred
+of keV range a focal length in the 40-50 meters range (attainable with a
+deployable mast) is needed. In addition such a mission could benefit
+from recent progress made on mirror coating. We propose to cover the
+1-200 keV energy range with a single detector, a double-sided Germanium
+strip detector operating at 80 K. The main features will be: (a) good
+energy resolution (.150 keV at 5 keV and $\lt$.5 keV at 100 keV), (b) 3
+dimensional event localization with a low number of electronic chains,
+(c) background rejection by the 3D localization, (d) polarisation
+capabilities in the Compton regime.
+}",
+      doi = {10.1007/s10686-011-9236-3},
+   adsurl = {http://adsabs.harvard.edu/abs/2012ExA....34..489R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010ApOpt..49.4077C,
+   author = {{Chauvin}, M. and {Roques}, J.-P.},
+    title = "{DynamiX, numerical tool for design of next-generation x-ray telescopes}",
+  journal = {Applied Optics},
+     year = 2010,
+    month = jul,
+   volume = 49,
+    pages = {4077-4087},
+      doi = {10.1364/AO.49.004077},
+   adsurl = {http://adsabs.harvard.edu/abs/2010ApOpt..49.4077C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2009SPIE.7437E..1KC,
+   author = {{Chauvin}, M. and {Roques}, J.-P.},
+    title = "{Simulation of the Simbol-X telescope: imaging performance of a deformable x-ray telescope}",
+booktitle = {Optics for EUV, X-Ray, and Gamma-Ray Astronomy IV},
+     year = 2009,
+   series = {Proceedings of the SPIE},
+   volume = 7437,
+    month = aug,
+      eid = {74371K},
+    pages = {74371K},
+ abstract = "{We have developed a simulation tool for a Wolter I telescope subject to
+deformations. The aim is to understand and predict the behavior of
+Simbol-X and other future missions (NuSTAR, Astro-H, IXO, ...). Our
+code, based on Monte-Carlo ray-tracing, computes the full photon
+trajectories up to the detector plane, along with the deformations. The
+degradation of the imaging system is corrected using metrology. This
+tool allows to perform many analyzes in order to optimize the
+configuration of any of these telescopes.
+}",
+      doi = {10.1117/12.825876},
+   adsurl = {http://adsabs.harvard.edu/abs/2009SPIE.7437E..1KC},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2009AIPC.1126...62C,
+   author = {{Chauvin}, M. and {Roques}, J.~P.},
+    title = "{Imaging Performance Analysis of Simbol-X with Simulations}",
+ keywords = {X- and gamma-ray telescopes and instrumentation, Lenses prisms and mirrors, Imaging detectors and sensors},
+booktitle = {American Institute of Physics Conference Series},
+     year = 2009,
+   series = {American Institute of Physics Conference Series},
+   volume = 1126,
+   editor = {{Rodriguez}, J. and {Ferrando}, P.},
+    month = may,
+    pages = {62-64},
+ abstract = "{Simbol-X is an X-Ray telescope operating in formation flight. It means
+that its optical performances will strongly depend on the drift of the
+two spacecrafts and its ability to measure these drifts for image
+reconstruction. We built a dynamical ray tracing code to study the
+impact of these parameters on the optical performance of Simbol-X (see
+Chauvin et al., these proceedings). Using the simulation tool we have
+developed, we have conducted detailed analyses of the impact of
+different parameters on the imaging performance of the Simbol-X
+telescope.
+}",
+      doi = {10.1063/1.3149466},
+   adsurl = {http://adsabs.harvard.edu/abs/2009AIPC.1126...62C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@INPROCEEDINGS{2009AIPC.1126...52C,
+   author = {{Chauvin}, M. and {Roques}, J.~P.},
+    title = "{Simulation of the Simbol-X Telescope}",
+ keywords = {X- and gamma-ray telescopes and instrumentation, Lenses prisms and mirrors, X-ray, X- and gamma-ray sources mirrors gratings and detectors, X-ray scattering},
+booktitle = {American Institute of Physics Conference Series},
+     year = 2009,
+   series = {American Institute of Physics Conference Series},
+   volume = 1126,
+   editor = {{Rodriguez}, J. and {Ferrando}, P.},
+    month = may,
+    pages = {52-55},
+ abstract = "{We have developed a simulation tool for a Wolter I telescope operating
+in formation flight. The aim is to understand and predict the behavior
+of the Simbol-X instrument. As the geometry is variable, formation
+flight introduces new challenges and complex implications. Our code,
+based on Monte Carlo ray tracing, computes the full photon trajectories
+up to the detector plane, along with the relative drifts of the two
+spacecrafts. It takes into account angle and energy dependent
+interactions of the photons with the mirrors and applies to any grazing
+incidence telescope. The resulting images of simulated sources from 0.1
+keV to 100 keV allow us to optimize the configuration of the instrument
+and to assess the performance of the Simbol-X telescope.
+}",
+      doi = {10.1063/1.3149463},
+   adsurl = {http://adsabs.harvard.edu/abs/2009AIPC.1126...52C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
